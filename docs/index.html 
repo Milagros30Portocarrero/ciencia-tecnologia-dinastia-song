@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MediaLab – Extracción y Procesamiento de Datos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 40px;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.2em;
+    }
+
+    .meta {
+      color: #666;
+      font-size: 0.95em;
+      margin-bottom: 30px;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    h2 {
+      margin-top: 50px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    a {
+      color: #3b5cff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .image-box {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background: #f0f2f5;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.85em;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>El Renacimiento Tecnológico de los Song</h1>
+
+    <div class="meta">
+      Autor: Milagros Portocarrero Vigo<br>
+      Fecha: 2026
+    </div>
+
+    <p>
+      El objetivo de este proyecto fue analizar cómo se presentan y organizan los contenidos
+      históricos relacionados con la innovación tecnológica durante la dinastía Song, a partir
+      de datos extraídos y procesados mediante técnicas de web scraping y análisis de texto.
+    </p>
+
+    <!-- ESPACIO PARA IMAGEN -->
+    <div class="image-box">
+      <img src="img/imagen.jpg" alt="Innovaciones tecnológicas en la dinastía Song">
+      <p><em>Figura: Representación de avances tecnológicos durante la dinastía Song.</em></p>
+    </div>
+
+    <p>
+      <strong>Innovación en la Ingeniería y Astronomía:</strong>
+      Bajo el liderazgo de figuras como Su Song, se perfeccionaron herramientas mecánicas complejas,
+      incluyendo relojes hidráulicos, esferas armilares y el icónico “carro que apunta hacia el sur”,
+      basándose en el legado de inventores pioneros como Zhang Heng.
+    </p>
+
+    <p>
+      <strong>Revolución en la Comunicación y Economía:</strong>
+      La evolución de la xilografía hacia los tipos móviles democratizó la educación confucianista,
+      mientras que la introducción del papel moneda y el uso de molinos de viento impulsaron una
+      expansión comercial sin precedentes.
+    </p>
+
+    <p>
+      <strong>Poderío Militar y la Pólvora:</strong>
+      El desarrollo avanzado de armas de fuego y cañones basados en pólvora fue clave para la defensa
+      del imperio frente a dinastías del norte antes del ascenso mongol.
+    </p>
+
+    <p>
+      <strong>Sofisticación Mecánica en la Vida Civil:</strong>
+      Se desarrollaron odómetros para medir distancias y dispositivos arquitectónicos como
+      bibliotecas giratorias, integrando ingeniería civil y prácticas culturales.
+    </p>
+
+    <p>
+      <strong>Mérito y Gestión Estatal:</strong>
+      El sistema de exámenes imperiales permitió reclutar talento técnico para el Estado,
+      asegurando que el conocimiento científico se orientara al desarrollo nacional.
+    </p>
+
+    <h2>Descarga de datos</h2>
+    <ul>
+      <li><a href="../data/raw.csv" download>Descargar raw.csv</a></li>
+      <li><a href="../data/clean.csv" download>Descargar clean.csv</a></li>
+      <li><a href="../data/summary.csv" download>Descargar summary.csv</a></li>
+    </ul>
+
+    <h2>Resumen de datos (summary.csv)</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Métrica</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Total de registros</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Longitud promedio del título</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>Palabra más frecuente</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      Proyecto académico – MediaLab | Extracción y Procesamiento de Datos
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -2,10 +2,160 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Prueba GitHub Pages</title>
+  <title>Ciencia y tecnología de la dinastía Song</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --primary: #1f4fd8;
+      --card: #f3f4f6;
+    }
+
+    body.dark {
+      --bg: #0f172a;
+      --text: #e5e7eb;
+      --card: #1e293b;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background: var(--card);
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      padding: 0.8rem;
+      border-bottom: 1px solid #ccc;
+      text-align: left;
+    }
+
+    tr:hover {
+      background: rgba(31,79,216,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 14px;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    button {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>GitHub Pages funciona</h1>
-  <p>Si ves esto, el problema NO es GitHub.</p>
-</body>
-</html>
+
+<header id="inicio">
+  <h1>Ciencia y tecnología de la dinastía Song</h1>
+  <p><strong>Autora:</strong> Milagros Portocarrero Vigo</p>
+  <p><strong>Fecha:</strong> 2026</p>
+  <button onclick="toggleMode()">Modo oscuro / claro</button>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#datos">Datos</a>
+  <a href="#hallazgos">Hallazgos</a>
+</nav>
+
+<section>
+  <h2>¿Qué buscaste responder?</h2>
+  <p>
+    Esta investigación explora cómo la dinastía Song impulsó uno de los periodos
+    más innovadores de la historia china, analizando el desarrollo científico,
+    tecnológico y administrativo que permitió avances duraderos en ingeniería,
+    economía y organización estatal.
+  </p>
+</section>
+
+<section id="datos">
+  <h2>Descarga de datos</h2>
+  <ul>
+    <li><a href="data/items.csv">items.csv</a></li>
+    <li><a href="data/words.csv">words.csv</a></li>
+    <li><a href="data/summary.csv">summary.csv</a></li>
+  </ul>
+
+  <h3>Métricas generales</h3>
+  <div class="cards">
+    <div class="card">
+      <h3>Total de ítems</h3>
+      <p>25</p>
+    </div>
+    <div class="card">
+      <h3>Palabra más frecuente</h3>
+      <p>Tecnología</p>
+    </div>
+    <div class="card">
+      <h3>Periodo analizado</h3>
+      <p>960–1279</p>
+    </div>
+  </div>

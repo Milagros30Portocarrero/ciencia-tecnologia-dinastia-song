@@ -1,4 +1,6 @@
 # El Renacimiento Tecnológico de los Song: La Era que Transformó a China
+<img width="468" height="275" alt="image" src="https://github.com/user-attachments/assets/27d061ab-95fa-4504-a75e-f35db7e91bb3" />
+
 
 Innovación en la Ingeniería y Astronomía: Bajo el liderazgo de figuras como Su Song, se perfeccionaron herramientas mecánicas complejas, incluyendo relojes hidráulicos, esferas armilares y el icónico "carro que apunta hacia el sur", basándose en el legado de inventores pioneros como Zhang Heng.
 
